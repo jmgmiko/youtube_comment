@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 import axios from 'axios';
-const KEY = "AIzaSyBhXrON3kc5gSBlCnd9szI9JsiHrIO1ZXs";
+const KEY = "AIzaSyBNIkHR6ZABCmMBmqiRRHnpbghk0yxJAlg";
 
 export default function searchMoreYoutubeVideos(token, term) {
       const response = axios.get('https://www.googleapis.com/youtube/v3/search', {
